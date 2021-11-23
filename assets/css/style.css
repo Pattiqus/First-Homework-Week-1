@@ -8,35 +8,56 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Removed . and changed to just Header to match HTML */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* Consolidated all h1 class tags to one, removing un-needed */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Consolidated all h2 Class tags to one , removing un-needed */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Consolidated all h3 class tags to one, removing un-needed */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Added h4 to remove specificly changed h2 on Footer */
+h4 {
+    font-size: 20px;
+}
+
+/* Removed .header as not required */
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Name changed from header div to Nav */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* List style type moved into Nav & un-needed class for ul removed */
+
+/* Name changed from header div to Nav */
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -101,21 +122,6 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -173,28 +179,10 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* Removed . to change to "Footer" matching HTML change */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
