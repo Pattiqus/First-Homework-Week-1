@@ -12,5 +12,5 @@ URL:
 https://pattiqus.github.io/First-Homework-Week-1/
 
 Screenshot:
-![FixedHoriseon](/assets/images/FixedSite.jpg?raw=true "FixedHoriseon")
+![FixedHoriseon](/assets/images/FixedSite.JPG)
 
